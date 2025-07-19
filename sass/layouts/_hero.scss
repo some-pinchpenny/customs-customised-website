@@ -1,0 +1,62 @@
+.hero-img {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(237, 119, 17, 0.49),
+      rgba(237, 119, 17, 0.49)
+    ),
+    url(../images/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+}
+
+// .hero-wrapper {
+//   // display: inline;
+
+//   @media screen and (min-width: 768px) {
+//     display: flex;
+//     align-items: center;
+//   }
+// }
+
+// .hero-text-wrapper {
+//   max-width: 100%;
+//   margin-right: 0;
+//   @media screen and (min-width: 528px) {
+//     max-width: 100%;
+//     margin-right: 0;
+//   }
+//   @media screen and (min-width: 768px) {
+//     max-width: 349px;
+//     margin-right: 15px;
+//   }
+//   @media screen and (min-width: 1240px) {
+//     max-width: 560px;
+//     margin-right: 40px;
+//   }
+// }
+
+.hero-title {
+  font-family: "Sedan SC", sans-serif;
+  color: white;
+  margin-bottom: 32px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.24;
+  width: 643px;
+  // @media screen and (min-width: 528px) {
+  //   margin-bottom: 24px;
+  //   font-size: 32px;
+  // }
+  // @media screen and (min-width: 768px) {
+  //   margin-bottom: 24px;
+  //   font-size: 32px;
+  // }
+  // @media screen and (min-width: 1240px) {
+  //   margin-bottom: 32px;
+  //   font-size: 40px;
+  // }
+}

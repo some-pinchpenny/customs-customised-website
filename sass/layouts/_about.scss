@@ -1,0 +1,40 @@
+// .about-img {
+//   max-width: 100%;
+
+//   @media screen and (min-width: 528px) {
+//     max-width: 100%;
+//   }
+//   @media screen and (min-width: 768px) {
+//     max-width: 349px;
+//   }
+//   @media screen and (min-width: 1240px) {
+//     max-width: 560px;
+//   }
+// }
+
+// .about-item {
+
+// }
+.about-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 36px;
+}
+
+.about-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 376px;
+}
+
+li .about-icon {
+  align-self: center;
+}
+
+.about-icon {
+  height: 108px;
+  margin-bottom: 40px;
+  fill: var(--primary-text-color);
+  text-align: center;
+}

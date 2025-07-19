@@ -1,0 +1,134 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+  font-size: 10px;
+  font-weight: 400;
+  @media screen and (min-width: 528px) {
+    font-size: 12px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 12px;
+  }
+  @media screen and (min-width: 1240px) {
+    font-size: 16px;
+  }
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.wrapper {
+  // display: inline;
+  gap: 0;
+  @media screen and (min-width: 768px) {
+    gap: 30px;
+    display: flex;
+  }
+  @media screen and (min-width: 1240px) {
+    gap: 80px;
+    display: flex;
+  }
+}
+
+.main-title {
+  text-transform: uppercase;
+  margin-bottom: 64px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  // @media screen and (min-width: 528px) {
+  //   margin-bottom: 12px;
+  //   font-size: 12px;
+  // }
+  // @media screen and (min-width: 768px) {
+  //   margin-bottom: 12px;
+  //   font-size: 12px;
+  // }
+  // @media screen and (min-width: 1240px) {
+  //   margin-bottom: 16px;
+  //   font-size: 16px;
+  // }
+}
+
+.main-text {
+  margin-bottom: 16px;
+  line-height: 1.9;
+  width: 100%;
+  @media screen and (min-width: 528px) {
+    margin-bottom: 24px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-bottom: 24px;
+  }
+  @media screen and (min-width: 1240px) {
+    margin-bottom: 32px;
+  }
+}
+
+.title {
+  color: var(--title-text-color);
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.24;
+  @media screen and (min-width: 528px) {
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+  @media screen and (min-width: 1240px) {
+    margin-bottom: 32px;
+    font-size: 32px;
+  }
+}
+
+.secondary-title {
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  @media screen and (min-width: 528px) {
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+  @media screen and (min-width: 1240px) {
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+}
+
+.button {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 0;
+  border-radius: 8px;
+  max-width: 200px;
+  max-height: 40px;
+  padding: 10px 24px;
+  line-height: 16px;
+  transition: opacity 0.25s;
+}
+
+.button:hover {
+  box-shadow: 1px 2px 7.4px rgba(49, 120, 225, 0.53);
+}
+
+.border {
+  border-top: 2px solid #d6dde5;
+}
